@@ -1,0 +1,117 @@
+body{
+    background-color: aqua;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    line-height: 1.6;
+    margin: 0%;
+}
+.container{
+    width:80;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: antiquewhite;
+    color: black;
+    width:100%;
+    position: fixed;
+    top:0%;
+
+}
+
+.logo{
+    float: left;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 6px 16px;
+
+}
+
+#navbar{
+    margin-top: 100px;
+    float:right;
+
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#nav li{
+    display: line;
+    padding: 15px;
+    cursor:pointer;
+
+}
+
+#navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 10px;
+    cursor:alias;
+}
+#navbar :hover{
+    background-color: aliceblue;
+    color: #fff;
+}
+
+#her{
+    background-image: url(../img/bgimg.png);
+    background-position: center left;
+    height: 400px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#main-secti9on{
+    float: left;
+    width:40;
+    padding: 0 30px;
+    box-sizing: border-box;
+
+}
+#sidebar{
+    float:left;
+    width: 30%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #fff;
+}
+
+#ftr{
+    background-color: aliceblue;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+    margin-top: 110px;
+}
+
+@media(max-width:900px){
+    #main-section{
+        float: none;
+        width: 100px;
+    }
+
+    #sidebar{
+        float:none;
+        width:100%;
+    }
+}
+
+@media(min-width:1050px){
+    #hero h1{
+        padding-top:100px;
+    }
+}
+
+@meadia(max-width:820;){
+    #navbar li{
+        padding:10px 5px;
+    }
+    
+}
+
